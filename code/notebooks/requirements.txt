@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+jupyter
+notebook
+sqlalchemy
+sqlite-utils
+ipython
+seaborn
+scipy
+sweetviz

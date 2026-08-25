@@ -1,0 +1,17 @@
+{
+  "rows": 100,
+  "phases": {
+    "stress": 60,
+    "baseline": 20,
+    "recovery": 20
+  },
+  "null_fraction": {
+    "DRB.UEThpUl": 0.0,
+    "DRB.UEThpDl": 1.0,
+    "DRB.RlcSduDelayDl": 0.0,
+    "RRU.PrbTotUl": 0.0
+  },
+  "generated_at": "2026-08-25T02:12:02.097856+00:00",
+  "ok_has_baseline_stress": true,
+  "ok_ue_thp_nonneg": true
+}
