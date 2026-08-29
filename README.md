@@ -307,18 +307,6 @@ Artefato gerado: `derived/decision_g1.json` (mesmo formato do `decision.json` do
 
 ---
 
-## 9. Divisão de responsabilidades (defesa individual)
-
-| Pessoa | Lidera | Critério da rubrica |
-|--------|--------|---------------------|
-| **Charles Xavier** | Origem dos dados e qualidade (seções 1, 3, 8) | Aquisição e qualidade — 2,0 |
-| **Luciano Campagnoli** | ETL, `g2_lib.py` e reprodutibilidade (seção 2) | ETL e reprodutibilidade — 2,0 |
-| **Thiago Coelho** | Definição e interpretação dos indicadores (seção 4) | KPIs/KQIs — 2,0 |
-| **Felipe Favilla** | Análise, visualizações e decisão A1 (seções 5, 6) | Análise e recomendação — 2,0 |
-| *Compartilhado* | Governança, limitações e apresentação (seção 7) | Governança e defesa — 2,0 |
-
----
-
 ## Referências
 
 No repositório do docente
