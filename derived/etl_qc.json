@@ -1,0 +1,44 @@
+{
+  "linhas": 100,
+  "runs": [
+    "ue-tp-20260804-174422"
+  ],
+  "amostras_por_fase": {
+    "baseline": 20,
+    "stress": 60,
+    "recovery": 20
+  },
+  "timestamps_distintos": 3,
+  "delay_zero_por_fase": {
+    "baseline": {
+      "zeros": 11,
+      "total": 20
+    },
+    "stress": {
+      "zeros": 0,
+      "total": 60
+    },
+    "recovery": {
+      "zeros": 11,
+      "total": 20
+    }
+  },
+  "maior_repeticao_de_payload": 10,
+  "linhas_duplicadas": 18,
+  "fracao_nula": {
+    "DRB.RlcSduDelayDl": 0.0,
+    "DRB.UEThpUl": 0.0,
+    "RRU.PrbTotUl": 0.0
+  },
+  "DRB.UEThpDl_presente": false,
+  "coluna_ue_id_presente": false,
+  "fracao_stress": 0.6,
+  "colunas": [
+    "phase",
+    "sample_index",
+    "DRB.RlcSduDelayDl",
+    "DRB.UEThpUl",
+    "RRU.PrbTotUl"
+  ],
+  "gerado_em": "2026-08-29T13:31:39.262555+00:00"
+}

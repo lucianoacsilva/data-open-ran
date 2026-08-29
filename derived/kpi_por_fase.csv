@@ -1,0 +1,4 @@
+phase,n,TAA_V1_pct,TAA_V2_pct,ISC_medio_V1,ISC_medio_V2,flags_delay_V1,flags_delay_V2
+baseline,20,0.0,0.0,1.51,0.04,9,0
+stress,60,100.0,98.3,9.91,6.61,60,0
+recovery,20,5.0,5.0,1.76,0.33,9,2
