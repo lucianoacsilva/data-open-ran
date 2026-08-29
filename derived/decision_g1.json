@@ -1,0 +1,70 @@
+{
+  "grupo": "01",
+  "tema": "G2 — Anomalia de carga",
+  "run_id": "ue-tp-20260804-174422",
+  "modelo": {
+    "algorithm": "robust-baseline-mad",
+    "score_threshold": 3.5,
+    "min_anomalous_features": 2,
+    "mad_floor": 1.0,
+    "tratar_delay_zero_como_nulo": true
+  },
+  "evaluation": {
+    "evaluated_at": "2026-08-29T13:31:44.209883+00:00",
+    "window_size": 5,
+    "apply_votes": 5,
+    "decision": "apply",
+    "latest": {
+      "phase": "stress",
+      "sample_index": 59,
+      "sample": {
+        "DRB.RlcSduDelayDl": 154.88,
+        "DRB.UEThpUl": 77216.56,
+        "RRU.PrbTotUl": 99.0
+      },
+      "scores": {
+        "DRB.RlcSduDelayDl": 0.26,
+        "DRB.UEThpUl": 77212.84,
+        "RRU.PrbTotUl": 97.0
+      },
+      "isc": 6.69,
+      "anomalous_features": [
+        "DRB.UEThpUl",
+        "RRU.PrbTotUl"
+      ]
+    }
+  },
+  "policy": {
+    "ric_id": "ric-oran",
+    "policy_id": "g2-load-anomaly-20260829133144",
+    "service_id": "grupo-01-g2-rapp",
+    "policytype_id": "1",
+    "policy_data": {
+      "scope": {
+        "ueId": "ue-any",
+        "qosId": "qos-lab"
+      },
+      "qosObjectives": {
+        "priorityLevel": 10
+      }
+    },
+    "actuation": {
+      "mode": "dry-run",
+      "real": {}
+    },
+    "lab_context": {
+      "intencao": "reduzir congestionamento UL",
+      "gatilho": "5/5 amostras da janela com >= 2 features anômalas",
+      "anomalous_features": [
+        "DRB.UEThpUl",
+        "RRU.PrbTotUl"
+      ],
+      "isc_ultima_amostra": 6.69,
+      "aviso": "Execução simulada. Nenhuma requisição foi enviada ao Near-RT RIC e nenhum efeito físico na RAN é alegado."
+    }
+  },
+  "actuation": {
+    "mode": "dry-run",
+    "real": {}
+  }
+}

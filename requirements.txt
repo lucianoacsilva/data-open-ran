@@ -1,0 +1,8 @@
+# Grupo 1 · Tema G2 — dependências mínimas do pipeline
+# Versões com as quais o pacote foi executado e validado.
+pandas==3.0.5
+matplotlib==3.11.1
+jupyter==1.1.1
+
+# Nada além disto é necessário: sem Parquet, sem InfluxDB, sem seaborn/scipy.
+# A fonte é o SQLite versionado em code/datasets/kpm-ue-tp-sample/.

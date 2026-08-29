@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# arquivos de bloqueio do Office (aparecem enquanto o .pptx esta aberto)
+~$*
+
+# derived/ e figures/ SAO versionados de proposito:
+# sao evidencia da execucao do pipeline para a avaliacao.
