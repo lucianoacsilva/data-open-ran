@@ -19,6 +19,7 @@ com política A1 em **execução simulada (dry-run)** e limitações declaradas.
 | Executar de verdade | [Como reproduzir](#2-como-reproduzir) → `code/notebooks/`, na ordem 01 → 02 → 03 |
 | Conferir os números | [Resultados](#5-resultados) · [`derived/kpi_por_fase.csv`](derived/kpi_por_fase.csv) |
 | Ler o código | [`code/g2_lib.py`](code/g2_lib.py) — toda a lógica está aqui |
+| Ver os checkpoints | [`docs/checkpoint1.md`](docs/checkpoint1.md) · [`docs/checkpoint2.md`](docs/checkpoint2.md) — também em PDF na mesma pasta |
 
 ---
 
