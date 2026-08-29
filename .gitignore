@@ -7,5 +7,10 @@ __pycache__/
 # arquivos de bloqueio do Office (aparecem enquanto o .pptx esta aberto)
 ~$*
 
+# Entregas individuais dos checkpoints: cada um envia a sua ao professor.
+# Este repositorio guarda o trabalho do grupo.
+docs/checkpoint*
+docs/figuras/cp[0-9]*
+
 # derived/ e figures/ SAO versionados de proposito:
 # sao evidencia da execucao do pipeline para a avaliacao.
