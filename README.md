@@ -19,6 +19,7 @@ com política A1 em **execução simulada (dry-run)** e limitações declaradas.
 | Executar de verdade | [Como reproduzir](#2-como-reproduzir) → `code/notebooks/`, na ordem 01 → 02 → 03 |
 | Conferir os números | [Resultados](#5-resultados) · [`derived/kpi_por_fase.csv`](derived/kpi_por_fase.csv) |
 | Ler o código | [`code/g2_lib.py`](code/g2_lib.py) — toda a lógica está aqui |
+| Ver os checkpoints | [`docs/checkpoint1.md`](docs/checkpoint1.md) · [`docs/checkpoint2.md`](docs/checkpoint2.md) — também em PDF na mesma pasta |
 
 ---
 
@@ -304,18 +305,6 @@ Artefato gerado: `derived/decision_g1.json` (mesmo formato do `decision.json` do
 - **Uso acadêmico** neste módulo. Artefatos originais do docente
   (`kpm.sqlite`, `kpm.jsonl`, `model.json`, `decision.json`) redistribuídos sem
   modificação; o código deste repositório é do grupo.
-
----
-
-## 9. Divisão de responsabilidades (defesa individual)
-
-| Pessoa | Lidera | Critério da rubrica |
-|--------|--------|---------------------|
-| **Charles Xavier** | Origem dos dados e qualidade (seções 1, 3, 8) | Aquisição e qualidade — 2,0 |
-| **Luciano Campagnoli** | ETL, `g2_lib.py` e reprodutibilidade (seção 2) | ETL e reprodutibilidade — 2,0 |
-| **Thiago Coelho** | Definição e interpretação dos indicadores (seção 4) | KPIs/KQIs — 2,0 |
-| **Felipe Favilla** | Análise, visualizações e decisão A1 (seções 5, 6) | Análise e recomendação — 2,0 |
-| *Compartilhado* | Governança, limitações e apresentação (seção 7) | Governança e defesa — 2,0 |
 
 ---
 
